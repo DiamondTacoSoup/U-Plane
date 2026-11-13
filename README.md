@@ -22,3 +22,11 @@ The wing is hollow to reduce the buoyancy differential by allowing the wing to f
 
 ## Why are the horizontal stabilisers so big
 Flying wings are inherently unstable in the roll direction. There is an aerodynamic phenomena, the dutch roll, where yawing moments couple into a rolling movement which can easily cause the wing to stall or spin out. To counter this massive vertical stabilisers are needed to stabilise the wing, and while this does increase drag; the efficancys of a flying wing design makes up for this other loss in efficiency. 
+
+## Images
+<img width="741" height="401" alt="image" src="https://github.com/user-attachments/assets/c817682a-060e-44f3-957c-2fac66764d92" />
+<img width="956" height="668" alt="image" src="https://github.com/user-attachments/assets/b8133bdd-3839-46fd-8dab-0aace9da530d" />
+<img width="1195" height="711" alt="image" src="https://github.com/user-attachments/assets/72eab8cb-61cb-4788-98c6-c62b6f6c8e48" />
+
+
+
