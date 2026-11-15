@@ -28,6 +28,9 @@ Flying wings are inherently unstable in the roll direction. There is an aerodyna
 <img width="956" height="668" alt="image" src="https://github.com/user-attachments/assets/b8133bdd-3839-46fd-8dab-0aace9da530d" />
 <img width="1195" height="711" alt="image" src="https://github.com/user-attachments/assets/72eab8cb-61cb-4788-98c6-c62b6f6c8e48" />
 
+# CAD link:
+https://cad.onshape.com/documents/dea9e55682d5880eec5785a8/w/3cc62f6ac92717a5f19433e7/e/9d39491d8db1865993afa135?renderMode=0&uiState=6af978d33fd59369afffb42d
+
 # BOM
 
 | Part | Quantity | Unit Price | Total Price incl. shipping | Link |
