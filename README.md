@@ -43,7 +43,7 @@ https://cad.onshape.com/documents/dea9e55682d5880eec5785a8/w/3cc62f6ac92717a5f19
 | Injector Syringe 4.5x2.5cm Clear | 12 | $3.25 | $39.00 | [Link](https://www.bunnings.com.au/12pk-topchef-disposable-flavour-marinade-injector-syringe-4-5x2-5cm-clear_p0965116) |
 | 100mm x 1m PVC DWV Pipe | 1 | $22.31 | $22.31 | [Link](https://www.bunnings.com.au/holman-100mm-x-1m-pvc-dwv-pipe_p4770090) |
 | 100mm PVC DWV Push On Cap | 2 | $3.95 | $7.90 | [Link](https://www.bunnings.com.au/holman-100mm-pvc-dwv-push-on-cap_p4770360) |
-| IP68 6 Pin Cable Connector | 1 | $15.00 | $20.00 | [Link](https://au.rs-online.com/web/b/rs-pro/?intcmp=AU-WEB-_-CP-HB-_-MCC_124_0126_APAC-_-rs-pro-accumulate-2026&pn=579) |
+| IP68 6 Pin Cable Connector | 1 | $15.00 | $20.00 | [Link](https://au.rs-online.com/web/p/industrial-circular-connectors/1749309) |
 | Cable | 15 | $0.86 | $18.90 | [Link](https://www.altronics.com.au/product/w2313-6-core-flat-modular-telephone-cable/) |
 | PCB | 5 |  | $20.27 | JLCPCB |
 |  |  | **Total (AUD)** | **$329.02** |  |
