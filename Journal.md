@@ -7,6 +7,7 @@ total_time: "34h 6m"
 ---
 
 # October 8, 2026: Setting up the github
+<!-- fabricate:entry 195 -->
 
 Read the rules of the comp, set up the Github repo.
 In coming days I will upload my cad files.
@@ -17,6 +18,7 @@ There is no PCB in this project as intend to use Perfboard instead to simplify t
 **Total time spent: 1h**
 
 # October 12, 2026: Created the CFD model
+<!-- fabricate:entry 349 -->
 
 Today I created a basic design outline of the U-plane's design in XFLR5.
 This program allowed me to easily design an airframe and wing structure using CAD tools and stability/efficiency simulations.
@@ -35,6 +37,7 @@ The wings utilize a MH45 Airfoil profile which is designed for the high lift - l
 **Total time spent: 8h 18m**
 
 # October 15, 2026: Started the cad & created initial BOM
+<!-- fabricate:entry 467 -->
 
 Today I started the CAD in my CAD software of choice, onshape. I imported my XFLR5 wing design using Profile Generator Featurescript. I chose a 100mm PVC pipe as the main pressure vessel as this was what was available at my local hardware store. Same story with the syringes, they are sized based of what was locally available to me. The stepper motors I decided to make NEMA 11 as it is the perfect balance of power and compactness. Attached below are images of the current design.
 Things left to design:
@@ -67,6 +70,7 @@ A major consideration I had to factor in with my PCB design was the trace sizing
 **Total time spent: 7h**
 
 # October 27, 2026: Added to Repo, BOM, & journaling (27/10/2026)
+<!-- fabricate:entry 1318 -->
 
 Added (ns)FAQ section to github repo, Added design images to github repo, and updated BOM with shipping costs, PCB costs, and currency conversions. I also wrote my journal entry for yesterday as by the time I was done I was way too tired to write and entry.
 
@@ -74,7 +78,26 @@ Added (ns)FAQ section to github repo, Added design images to github repo, and up
 
 **Total time spent: 1h 30m**
 
+# October 27, 2026 (entry 2): Created schematic and PCB (26/10/2026)
+<!-- fabricate:entry 1316 -->
+
+## Schematic
+I historically have used Kicad for my other projects, however because of its extensive part library I have opted to use EasyEDA for this project. 
+
+I started by creating my schematic, this was largely dictated by my choice of microcontroller (ESP32), and my choice of stepper motor controller (TMC2209). I chose this microcontroller as I have many of them just sitting around. I chose the TMC2209 as it has an operating voltage of 4.75V - 29V meaning I can drive it directly from my 2s battery which is not possible with other alternatives.
+
+The main issue I face was figuring out how to create solder pads, I am embarrassed to admit this look me like and hour D:, However other than that it was a simple matter of placing and tracing the components. 
+![](https://fabricate.hackclub-assets.com/ca7898c19d353aa500af768b6ffb909c97b5ef08d5c1c37fc9fcb9b706ab2d7e/image-png/image.png)
+
+## PCB
+A major consideration I had to factor in with my PCB design was the trace sizing. As many of these traces will be carrying Amps of current they needed to be sufficiently sized. I used Kicad's inbuilt trace sizing calculator to ensure that the traces were big enough to carry the current demanded of them, that is why the traces are so wide in some areas of the PCB.
+![](https://fabricate.hackclub-assets.com/23004348dd0df13af23b55c3b485b7352911a21d61a3c93dd1c722298f1b8096/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/9b2bf7a3330dbae3d5e1b646457eb34f9038caa638928e25d5d76c1a0b67b241/image-png/image.png)
+
+**Total time spent: 7h**
+
 # November 11, 2026: Wrote the firmware
+<!-- fabricate:entry 2615 -->
 
 **My trials and tribulations**
 I have not Journaled in a while as my yearly exams just concluded, I spent today creating the firmware for U-plane. This was quite a rabbit hole as coding is not my forte and I had to learn about stepper motor control drivers. I originally wrote this program to use UART which took a long time before I realised that I was using step control for the Tmc2209 stepper drivers. I then had to completely rewrite the code for the correct wiring/
